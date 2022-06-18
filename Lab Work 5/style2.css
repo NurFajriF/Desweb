@@ -1,0 +1,59 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #e1e1e1;
+}
+.header {
+    background: rgba(0,0,0,0.9);
+    padding: 6px 24px;
+    text-align: left;
+    color: white;
+    margin: 0px;
+    letter-spacing: 1px;
+    font: caption;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.menu {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.menu ul {
+    background: hsl(182, 86%, 35%);
+    margin-top: 0px;
+    padding: 0 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li :hover {
+    background:hsl(182, 40%, 52%)
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.video-container {
+    position: relative;
+    z-index: 1;
+    top: 0px;
+}
+.video-container iframe {
+    width: 100%;
+    height: 90vh;
+}
+
+.content {
+    padding: 0px 24px;
+    text-align: justify;
+    font-size: 20px;
+}

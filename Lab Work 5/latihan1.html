@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Praktikum Z-Index</title>
+        <style>
+
+            #layera {
+                position: absolute;
+                margin: 20px 150px;
+                height: 200px;
+                width: 200px;
+                background: yellow;
+                z-index: 2;
+            }
+
+            #layerb {
+                position: absolute;
+                margin: 100px 0;
+                height: 150px;
+                width: 300px;
+                background: lightblue;
+                z-index: 1;
+            }
+
+            #layerc {
+                position: relative;
+                margin: 0 20px;
+                height: 200px;
+                width: 400px;
+                background: red;
+                z-index: 0;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div id="layera">Layer A</div>
+        <div id="layerb">Layer B</div>
+        <div id="layerc">Layer C</div>
+
+    </body>
+</html>

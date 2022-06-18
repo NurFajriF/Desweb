@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan1-Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="css/star-rating-svg.css" rel="stylesheet">
+    <link href="css/main2.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <nav class="navbar navbar-dark bg-info p-2">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold" href="#">Muhammad Nur Fajri</a>
+                    <h2 class="navbar-brand">K3521054</h2>
+            
+                </div>
+            </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row h-100">
+                <div class="col-lg-6">
+                    <div class="content right p-3">
+                        <h5 class="fw-bold bg-info p-2">Testimoni</h5>
+                        <p>
+                            Awalnya saya coba - coba, tetapi makin ke sini malah makin 
+                            ke sana eh, maksud saya merasa seperti salah rute. Ternyata 
+                            satu huruf itu membuat perbedaan yang besar. Tetapi setelah 
+                            saya berkuliah di matkul desain web ini, pandangan saya menjadi 
+                            tercerahkan bahwa lulusan dari PTIK bisa menuju rute yang lebih 
+                            banyak lagi (prospek kerja maksud saya).
+                            <br>
+                            Untuk kuliah desain web selama ini, tugas - tugas yang 
+                            diberikan cukup menantang. Apalagi tugas project untuk UAS, 
+                            mudah - mudahan saya mampu menyelesaikan tugas UAS sesuai 
+                            tenggat waktu yang diberikan.
+                        </p>
+                        <div class="my-rating text-center"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 pt-lg-0 pt-3" >
+                    <div class="content left p-3">
+                        <h5 class="fw-bold bg-info p-2">Kritik</h5>
+                        <p>
+                            Saya menolak memberikan kritik di sini.
+                        </p>
+                    </div>
+                    <div class="block"></div>
+                    <div class="content left p-3">
+                    <h5 class="fw-bold bg-info p-2">Saran</h5>
+                        <p>
+                            Selalu memberikan materi yang ter-update tentang dunia web programming 
+                            saat ini.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="bg-info text-center">
+            <a href="https://ptik.fkip.uns.ac.id" target="_blank">Pendidikan Teknik Informatika dan Komputer &copy; 2022</a>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap/js/jquery.star-rating-svg.js"></script>
+    <script>
+        $(".my-rating").starRating({
+            readOnly: true,
+            initialRating: 4,
+            strokeColor: 'gold',
+            strokeWidth: 10,
+            starSize: 20
+        });
+    </script>
+</body>
+</html>
